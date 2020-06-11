@@ -35,7 +35,7 @@ use LaraStuffs\VidyoToken\VidyoToken;
 $username = 'LaraStuffs';
 
 echo VidyoToken::generate($username);
-// Result: cHJvdmlzaW9uAExhcmFTdHVmZnNAADYzNzU5MDU0NTc0AABhOWJjMWQ2MmU5Njc4Njg3YjRhMGY5MTYwNDc1MTMxNmQ5ZGZjNmNkNTVmNDIwMTM1OTYyODBkMWVhYmE3MTVhZmZmZTQ1OGY3ZDRmYmQxZTQ4MjNlYTU0M2Y1NzVkMzc=
+// Result: cHJvdmlzaW9uAExhcmFTdHVmZnNAADYzNzU5...
 ```
 
 ## Contributing
