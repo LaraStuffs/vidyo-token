@@ -1,0 +1,35 @@
+{
+    "name": "larastuffs/vidyo-token",
+    "description": "Generate access tokens for Vidyo.io",
+    "keywords" : ["laravel", "vidyo.io", "token"],
+    "type": "library",
+    "homepage": "https://github.com/LaraStuffs/vidyo-token",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Álvaro Ferreira Pires de Paiva",
+            "email": "alvarofepipa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "laravel/laravel": ">=6.0",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraStuffs\\VidyoToken\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaraStuffs\\VidyoToken\\VidyoTokenServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
