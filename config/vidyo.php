@@ -17,7 +17,7 @@ return [
     */
 
     'default' => [
-        'username' => '',
+        'username' => 'visitor',
         'seconds' => 1800,
     ],
 
