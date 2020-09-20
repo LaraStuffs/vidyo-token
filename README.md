@@ -24,6 +24,9 @@ php artisan vendor:publish --provider="LaraStuffs\VidyoToken\VidyoTokenServicePr
 
 Go to `config/vidyo.php` and change the value of `developer_key` and `app_id` for your developer key and application ID.
 
+## To do list
+- [ ] Accept vCard
+
 ## Usage
 You can use the static method `LaraStuffs\VidyoToken\VidyoToken::generate(string $username = null, int $seconds = null): string` to generate the token.
 If the arguments are `null`, the method gets the values defined in `config/vidyo.php`.
